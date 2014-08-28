@@ -18,3 +18,4 @@ setup: .setup
 remove:
 	docker rm -f wp
 	docker rm -f wpmysql
+	rm .setup
